@@ -1,0 +1,288 @@
+
+body{
+    margin: 0;
+
+    
+    background-color: #5c6b28;
+    min-height: 100vh;
+        
+}
+/*HEADER SECTION*/
+h1  {
+    margin: 0;
+    color: #ffffdb;
+    font-size: 50px;
+    text-wrap: balance;
+    text-decoration: underline;
+}
+.p1{
+    color: #ffffdb;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-justify: auto;
+    text-wrap: balance;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    background-color: #5c6b2888;
+    position: absolute;
+    z-index: 1;
+}
+.header{
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    
+    background-repeat: no-repeat;   /* evita la repetición */
+    background-size: cover;         /* reescala para cubrir todo el contenedor */
+    background-position: center;    /* la centra */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__item-conteiner{
+    
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    max-width: 700px;
+    overflow: hidden;
+}
+.lheader{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 65%;
+    border: 5px solid #5c6b28 ;
+}
+
+/*---NAV--SECTION----*/
+.nav{
+    
+    width: 100%;
+    padding-right: 40px;
+    background-color: #ffffdb;
+    
+    
+}
+.nav__div{
+    width: 570px;
+    margin: auto;
+
+}
+.nav__list{
+    justify-content: center;
+    margin: auto;
+}
+.nav__item{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+a{
+    color: #414b1d;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link--bottom{
+background-color: #d7be69;
+padding: 15px;
+border-radius: 20px;
+border: 1px solid #414b1d;
+
+}
+.link--bottom:hover{
+    transition: 1s;
+    background-color: #5c6b28;
+    color: #d7be69;
+
+}
+
+
+    form{
+        padding: 0.5px;
+        background-color: #5c6b28;
+        max-width: 550px;
+        box-shadow: 0px 0px 45px #0004;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        border-radius: 40px; 
+        padding-top: 10px; 
+}
+    .form_input{       
+        padding: 6px  20px;
+    
+    
+}
+    .submit{
+        padding: 6px 20px;
+        padding-bottom: 10px;
+        margin: auto;
+    
+}   
+h2{
+    margin: 0;
+    padding-bottom: 30px;
+    color: #f6f3e7;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+input, textarea, select {
+    
+    width: 100%;
+    background-color: #e9e8de;
+    box-sizing: border-box; /*esto es para que ocupe todo sin que elimine la barra de scroll*/
+    padding: 6px 12px;
+    border: none;/*se pone antes del "left para quye no se sobrescriban, se eliminan los por defectos y luego pones el que desees*/
+    border-left: 2px solid #666;
+    border-radius: 10px;
+    
+    
+}
+
+textarea{
+    min-width: 100%;
+    font-family: sans-serif;
+    resize: none;
+    min-height: 150px;
+    max-height: 250px;
+    padding: 6px 12px;
+    border: none;
+    border-left: 2px solid #666;
+    
+}
+label{
+    line-height: 2em;
+    font-size: 0.88;
+    color: #d6cfcf;
+}
+.checkbox{
+    width: auto;
+    height: 10px;
+}
+select{
+    width: 80%;
+    margin: 4px 20px 4px 60px;
+
+}
+option{
+    border-radius: 10px;
+    background-color: #e9e8de;
+
+}
+.l2{
+    margin-left: 40px;
+}
+.terms{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+fieldset{
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 4px solid #f0eacc;
+}
+legend{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #545048;
+    background-color: #d7be69;
+    border-radius: 20px;
+    padding: 0 4px;
+    margin: 0 4px;
+}
+.div__00{
+    min-width: 550px;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: yellow;
+    
+    
+}
+.div__01{
+    
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: red
+    
+}
+.div__02{
+    display: inline-flex;        /* alinea icono y número en fila */
+    align-items: center;         /*   centra verticalmente */
+    gap: 12px;                   /*   espacio entre icono y número */
+    background-color: blue;
+    padding: 8px;                /*   opcional, margen interior */
+    border-radius: 8px;   
+}
+.wicon{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    display: block;
+}
+.wnumber{
+    font-size: 28px;             /* aumenta tamaño de fuente */
+    color: white;                
+    font-weight: bold;           /*   opcional: resalta el número */
+    line-height: 1;              /*   evita saltos raros verticales */
+    white-space: nowrap;         /*   que no se parta el número */
+}
+.div__text{
+    background-color: red;
+    color: #fff;
+}
+.icon{
+    position: fixed;
+    right: 0;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.5;
+    
+    
+}
+.box__icon{
+    width: 50px;
+    height: 50px;
+}
+.icon:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+.box__cateto{
+    
+    
+    margin:auto;
+    display: flex;
+}
+.cateto{
+    box-shadow: 0 0 45px #0004;
+    border-radius: 50px;
+    margin:auto;
+    justify-content: center;
+}

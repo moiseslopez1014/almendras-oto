@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #5c6b28;
+    box-sizing: border-box;
+
+}
+
+/*---HEADER--SECTION---*/
+h1{
+    font-size: 25px;
+    font-family: url;
+    color: #ffffdb;
+    text-decoration: underline;
+    text-wrap: balance;
+}
+.header{
+width: 100%;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(../../../farmer2.jpg);
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+z-index: 0;
+
+
+
+}
+.header__overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #5d6b2899;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__conteiner{
+    z-index: 10;
+    position: relative;
+    text-align: center;
+
+}
+/*--NAV--SECTION--*/
+.nav{
+    background-color: #ffffdb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    padding: 6px 20px;
+}
+.nav__ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__il{
+    list-style: none;
+    border-radius: 25px;
+}
+.nav__link{
+    font-weight: bold;
+    border-radius: 0;
+    font-size: 25px;
+    text-decoration: none;
+    color:#5c6b28 ;
+    display: inline-block;
+    padding: 8px 20px;
+    
+}
+.nav__link:hover{
+    font-weight: bold;
+    transition: 0.4s;
+    color: #ffffdb;
+    background-color: #5c6b28;
+    border: 0 solid #5c6b28;
+    border-radius: 25px;
+}
+.nav__logo{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+}
+
+/*--MAIN--SECTION---*/
+.main__conteiner{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    background-color: blue;
+    
+}
+.main__div{
+    padding: 0;
+    margin: auto;
+
+    
+    flex-basis: 350px;
+    height: 550px;
+    background-color: green;
+}
+.aside2__div{
+    margin-right: 10px;
+    justify-content: right;
+    align-self: center;
+    height: 350px;
+    min-width: 150px;
+    background-color: red;
+}
+
+/*--FOOTER--SECTION*/
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffdb;
+    padding: 20px;
+    background-color: black;
+}

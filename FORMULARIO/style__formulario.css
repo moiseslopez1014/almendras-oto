@@ -71,26 +71,15 @@ h1  {
     
 }
 .nav__div{
+    display: flex;
     width: 570px;
     margin: auto;
-
-}
-.nav__list{
     justify-content: center;
-    margin: auto;
-}
-.nav__item{
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
 }
 
-a{
+
+
+.nav__link{
     color: #414b1d;
     text-decoration: none;
     font-size: 20px;

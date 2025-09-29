@@ -22,7 +22,7 @@ height: 250px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url(../../../farmer2.jpg);
+background-image: url(farmer2.jpg);
 background-position:center;
 background-size: cover;
 background-repeat: no-repeat;
